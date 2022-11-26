@@ -8,6 +8,7 @@ st.set_page_config(
     page_icon="🤔",
 )
 
+
 st.sidebar.title("Things to remember")
 st.sidebar.write("""Normal resting blood pressure is ***less than 120/80 mmHg***""")
 st.sidebar.write("""Normal cholesterol level is ***200 to 239 mg/dL***""")
