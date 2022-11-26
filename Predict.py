@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import pickle
 import sklearn
+from sklearn.svm import SVC
 
 st.write("""
 # Heart Attack Prediction
