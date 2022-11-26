@@ -6,7 +6,7 @@ import pandas as pd
 import pickle
 #import sklearn
 #from sklearn.svm import SVC
-from sklearn import model_selection
+#from sklearn import model_selection
 from sklearn.linear_model import LogisticRegression
 import pickle
 
