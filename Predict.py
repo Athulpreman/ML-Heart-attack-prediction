@@ -1,28 +1,9 @@
 import streamlit as st
 import pandas as pd
 import pickle
-import sklearn
-
-st.set_page_config(
-    page_title="Predict",
-    page_icon="🤔",
-)
-
-
-st.sidebar.title("Things to remember")
-st.sidebar.write("""Normal resting blood pressure is ***less than 120/80 mmHg***""")
-st.sidebar.write("""Normal cholesterol level is ***200 to 239 mg/dL***""")
-st.sidebar.write("""Fasting blood sugar ***less than 120mg is normal***""")
-st.sidebar.write("""***60 to 100 beats*** per minute is normal heart beat rate""")
-
-
-
-
-
-
-st.markdown("# Heart Attack Prediction")
-
-
+st.write("""
+# Heart Attack Prediction
+ """)
 BloodPressure=Cholestrol=BloodSugar=MaximumHeartRate="ap"
 svm_classifier = open('Attack_Model.pkl','rb')
 classifier = pickle.load(svm_classifier)
@@ -84,7 +65,7 @@ else:
 
 submit = st.button("Predict")
 if submit:
-	if BloodPressure=="ap" or Cholestrol=="ap" or BloodSugar=="ap" or MaximumHeartRate=="ap":
+	if BloodPressure=="" or Cholestrol=="" or BloodSugar=="" or MaximumHeartRate=="":
 		st.warning("Enter every details correctly..")
 	else:
 		NoMajorVessels = b1 + b2 + b3
