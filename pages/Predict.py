@@ -31,7 +31,7 @@ st.markdown("# Heart Attack Prediction")
 
 BloodPressure=Cholestrol=BloodSugar=MaximumHeartRate="ap"
 svm_classifier = open('Attack_Model.pkl','rb')
-classifier = pickle.load(svm_classifier)
+#classifier = pickle.load(svm_classifier)
 b1=b2=b3=0
 #NoMajorVessels=0
 age = st.text_input("Enter the Age  ")
