@@ -6,7 +6,7 @@ import streamlit as st
 import pandas as pd
 #import sklearn
 #import sklearn
-from sklearn.svm import svm_classifier
+#from sklearn.svm import svm_classifier
 #from sklearn import model_selection
 #from sklearn.linear_model import LogisticRegression
 import pickle
