@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import pickle
-conda install scikit-learn
+pip install scikit-learn
 #pip install sklearn
 import streamlit as st
 import pandas as pd
