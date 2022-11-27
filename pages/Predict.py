@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import pickle
+pip install sklearn
 import streamlit as st
 import pandas as pd
 #import sklearn
