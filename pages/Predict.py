@@ -98,7 +98,7 @@ if submit:
 		NoMajorVessels = b1 + b2 + b3
 		result = classifier.predict([[age, gender, ChestPainType, BloodPressure, Cholestrol, BloodSugar, ECG,
 									  MaximumHeartRate, Exercise, NoMajorVessels]])
-		if result == 0:
+		if result == 1:
 			st.markdown("I am very sorry... ***It seems you will have heart attack*** :cry:")
 			st.warning(
 				"Take required precautions as soon as possible. Visit the following site for more details.    https://www.medicinenet.com/heart_attack_and_atherosclerosis_prevention/article.htm")
