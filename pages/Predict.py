@@ -104,5 +104,5 @@ if submit:
 				"Take required precautions as soon as possible. Visit the following site for more details.    https://www.medicinenet.com/heart_attack_and_atherosclerosis_prevention/article.htm")
 
 		else:
-			st.markdown("Congrats..!! ***You wont have heart attack.*** :smile:")
+			st.markdown("Coongrats..!! ***You wont have heart attack.*** :smile:")
 			st.warning("Exercise regularly for better health.")
