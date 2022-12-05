@@ -92,7 +92,7 @@ else:
 
 submit = st.button("Predict")
 if submit:
-	if if BloodPressure=="" or Cholestrol=="" or BloodSugar=="" or MaximumHeartRate=="" or age==null or BloodPressure==null or Cholestrol==null or BloodSugar==null or MaximumHeartRate==null:
+	if BloodPressure=="" or Cholestrol=="" or BloodSugar=="" or MaximumHeartRate=="" or age==null or BloodPressure==null or Cholestrol==null or BloodSugar==null or MaximumHeartRate==null:
 		st.warning("Enter every details correctly..")
 	else:
 		NoMajorVessels = b1 + b2 + b3
