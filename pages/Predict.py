@@ -99,10 +99,11 @@ if submit:
 		result = classifier.predict([[age, gender, ChestPainType, BloodPressure, Cholestrol, BloodSugar, ECG,
 									  MaximumHeartRate, Exercise, NoMajorVessels]])
 		if result == 1:
-			st.markdown("I am very sorry... ***It seems you will have heart attack*** :cry:")
+			st.markdown("I am very sorry... ***It seems there is a possibility for you to have heart attack*** :cry:")
+			st.markdown("Please consult a cardiologists for further instructions and scientific means of detecting heart attack.")
 			st.warning(
 				"Take required precautions as soon as possible. Visit the following site for more details.    https://www.medicinenet.com/heart_attack_and_atherosclerosis_prevention/article.htm")
 
 		else:
-			st.markdown("Coongrats..!! ***You wont have heart attack.*** :smile:")
+			st.markdown("Congrats..!! ***You wont have heart attack.*** :smile:")
 			st.warning("Exercise regularly for better health.")
